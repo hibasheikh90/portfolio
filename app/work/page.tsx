@@ -28,7 +28,7 @@ const projectsData: Project[] = [
     tech: ["Next.js", "TypeScript", "TailwindCSS"],
   },
   {
-    title: "Portfolio Website",
+    title: "E-Commerce Website",
     description:
       "A modern e-commerce platform built with Next.js, TypeScript, TailwindCSS.",
     link: "https://e-commerceweb3.vercel.app",
@@ -38,7 +38,7 @@ const projectsData: Project[] = [
     title: "Resume Builder",
     description:
       "A simple online resume builder using HTML, CSS and JavaScript. Generate and download your professional CV easily.",
-    link: "",
+    link: "https://milestone-3-lime-sigma.vercel.app/",
     tech: ["HTML", "CSS", "JavaScript"],
   },
 ];
@@ -114,4 +114,3 @@ const Projects: React.FC = () => {
 };
 
 export default Projects;
-
