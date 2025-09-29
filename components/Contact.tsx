@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
-  const [showDropdown, setShowDropdown] = useState(false);
+  const [] = useState(false);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800 flex items-center justify-center px-6 py-16">
