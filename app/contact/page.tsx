@@ -21,8 +21,15 @@ const Contact = () => {
 
           {/* Contact Info */}
           <div className="space-y-1 text-gray-300 text-sm">
-            <p>📧 hayasheikh109.com</p>
-            <p>📞 +92 123 4567890</p>
+            <p>
+              📧{" "}
+              <a
+                href="mailto:hayasheikh109@gmail.com"
+                className="hover:text-cyan-400 transition"
+              >
+                hayasheikh109@gmail.com
+              </a>
+            </p>
             <p>📍 Karachi, Pakistan</p>
           </div>
 

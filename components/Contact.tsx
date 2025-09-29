@@ -33,35 +33,7 @@ const Contact = () => {
               </a>
             </p>
 
-            {/* Phone with Dropdown */}
-            <div className="inline-block relative">
-             
-              <button
-                onClick={() => setShowDropdown(!showDropdown)}
-                className="hover:text-cyan-400 transition flex items-center gap-1"
-              >
-               📞 +92 3193493465 
-              </button>
-
-              {showDropdown && (
-                <div className="absolute mt-2 bg-gray-800 border border-gray-600 rounded-lg shadow-lg w-40 z-10">
-                  <a
-                    href="tel:+923193493465"
-                    className="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-cyan-400 transition"
-                  >
-                    📞 Call
-                  </a>
-                  <a
-                    href="https://wa.me/923193493465"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block px-4 py-2 text-gray-300 hover:bg-gray-700 hover:text-cyan-400 transition"
-                  >
-                    💬 WhatsApp
-                  </a>
-                </div>
-              )}
-            </div>
+           
 
             <p>📍 Karachi, Pakistan</p>
           </div>
